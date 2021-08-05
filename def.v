@@ -1,0 +1,22 @@
+`define LOAD 8'b00000000
+`define STORE 8'b00000001
+`define ADD 8'b00000010
+`define SUB 8'b00000011
+`define MUL 8'b00000100
+`define DIV 8'b00000101
+`define AND 8'b00000110
+`define OR 8'b00000111
+`define XOR 8'b00001000
+`define RSHIFT 8'b00001001
+`define LSHIFT 8'b00001010
+`define JMP 8'b00001011
+`define JMPE 8'b00001100
+`define JMPNE 8'b00001101
+`define OUT 8'b00001110
+`define HLT 8'b00011111
+`define NOP 8'b00010000
+
+`define r0 8'b00000000
+`define r1 8'b00000001
+`define r2 8'b00000010
+`define r3 8'b00000011
