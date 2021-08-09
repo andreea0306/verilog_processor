@@ -15,7 +15,7 @@
 
 # Quartus Prime: Generate Tcl File for Project
 # File: procesor.tcl
-# Generated on: Thu Aug  5 21:19:41 2021
+# Generated on: Mon Aug  9 22:39:15 2021
 
 # Load Quartus Prime Tcl Project package
 package require ::quartus::project
@@ -75,7 +75,10 @@ if {$make_assignments} {
 	set_global_assignment -name VERILOG_FILE def.v
 	set_global_assignment -name VERILOG_FILE prog_mem.v
 	set_global_assignment -name VERILOG_FILE top.v
+	set_global_assignment -name VERILOG_FILE output_files/test.v
+	set_global_assignment -name VERILOG_FILE sevseg.v
 	set_global_assignment -name VERILOG_FILE sim.v
+	set_global_assignment -name VERILOG_FILE PC.v
 	set_location_assignment PIN_M9 -to clk
 	set_location_assignment PIN_M6 -to reset
 	set_location_assignment PIN_U21 -to out0[6]
